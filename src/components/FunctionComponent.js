@@ -1,7 +1,6 @@
 import React, {useState} from 'react';
-import './App.css';
 
-function App() {
+function FunctionComponent() {
   const [firstname, setFirstname] = useState('');
   const [lastname, setLastname] = useState('');
   const [name, setName] = useState('');
@@ -46,4 +45,4 @@ function App() {
   )
 }
 
-export default App;
+export default FunctionComponent;
